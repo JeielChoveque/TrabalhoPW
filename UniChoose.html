@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="imagens/309480124_617936913180048_8810415709311915754_n__1_-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/UniChoice.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<style>
+.poll-body ul li label {
+  display: flex;
+  align-items: center;
+}
+
+.imgCar {
+  width: 50px; 
+  height: 50px; 
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+span {
+  text-align: center;
+}
+
+  
+    
+</style>
+<title>UniChoise</title>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="imagens/309480124_617936913180048_8810415709311915754_n__1_-removebg-preview.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">UniChoice</span>
+                    <span class="profession">Unilurio</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a id="aberto" href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="Resumo.html">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Resuno</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="notificacao.html">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Notificacao</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="Perfil.html">
+                            <img src="imagens/icon/user.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="text nav-text">Perfil</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="login.html">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">sair</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Modo escuro</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="text">
+                   
+        <h1>Eleição para o cargo de presidente do núcleo dos estudantes.</h1>
+        
+        <form id="pollForm">
+        <div class="poll">
+            <div class="poll-heading">
+            <h3 class="poll-title">Seleciono o eleitor</h3>
+            </div>
+            
+
+            <div class="poll-body">
+                <ul>
+                  <li>
+                    <label>
+                      <img class="imgCar" src="imagens/cand/kisspng-police-officer-police-dog-boston-police-department-policeman-5abcf8d92efb02.9353252315223339131924__1_-removebg-preview.png" alt="">
+                      <input type="radio" name="pollOptions" value="Superman">
+                      <span>JEIEL CHOVEQUE</span>
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <img class="imgCar" src="imagens/cand/IMG_20210314_134319~2.jpg" alt="">
+                      <input type="radio" name="pollOptions" value="Batman">
+                      <span>DHULKIFLI MALIQUE</span>
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <img class="imgCar" src="imagens/cand/IMG_20210314_134319_2-removebg-preview.png" alt="">
+                      <input type="radio" name="pollOptions" value="Son Goku">
+                      <span>EDMILSON JOAQUIM</span>
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="radio" name="pollOptions" value="Other">
+                      <span>NULO</span>
+                    </label>
+                  </li>
+                </ul>
+
+            </div>
+            <div class="poll-footer">
+            <button type="submit">Vote</button>
+            </div>
+        </div>
+        </form>
+         </div>
+
+         </div>
+              
+            
+        </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
