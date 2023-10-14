@@ -1,0 +1,117 @@
+/* Reset de margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilize o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Estilize o cabeçalho */
+
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Estilize o conteúdo */
+#conteudo {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os elementos fluam para a próxima linha em telas menores */
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Estilize o contêiner do gráfico */
+#grafico-container {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%; /* Ocupará toda a largura em telas menores */
+    margin-bottom: 20px; /* Adiciona espaço inferior entre o gráfico e as informações */
+}
+
+/* Estilize o gráfico */
+#chartContainer {
+    height: 300px;
+    width: 100%;
+}
+
+/* Estilize o contêiner de informações */
+#informacoes {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%; /* Ocupará toda a largura em telas menores */
+}
+
+#informacoes h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+/* Estilize candidatos */
+.candidato {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.candidato img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.candidato h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.candidato p {
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+}
+
+/* Estilize as informações de participação */
+#turnout {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%; /* Ocupará toda a largura em telas menores */
+    margin-top: 20px; /* Adiciona espaço superior entre as informações de participação e o rodapé */
+}
+
+#turnout h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+#turnout p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Estilize o rodapé */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+}

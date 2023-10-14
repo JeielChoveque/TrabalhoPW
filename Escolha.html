@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Escolha Seu Candidato</title>
+</head>
+<body>
+    <h1>Escolha Seu Candidato</h1>
+    <div class="candidato" onclick="mostrarInformacoes(this)">
+        <div class="candidato-info">
+            <img src="imagens/cand/309480124_617936913180048_8810415709311915754_n__1_-removebg-preview.png" alt="Candidato 1">
+            <h2>Candidato 1</h2>
+            <p>Candidato à Prefeitura</p>
+        </div>
+    </div>
+    <div class="candidato" onclick="mostrarInformacoes(this)">
+        <div class="candidato-info">
+            <img src="imagens/cand/IMG_0091.jpg" alt="Candidato 2">
+            <h2>Candidato 2</h2>
+            <p>Candidato à Prefeitura</p>
+        </div>
+    </div>
+    <div class="candidato" onclick="mostrarInformacoes(this)">
+        <div class="candidato-info">
+            <img src="imagens/cand/Antonio.jpg"" alt="Candidato 3">
+            <h2>Candidato 3</h2>
+            <p>Candidato à Prefeitura</p>
+        </div>
+    </div>
+    <div id="informacoes" class="hidden">
+        <h2>Informações do Candidato</h2>
+        <img id="candidato-foto" src="" alt="Candidato">
+        <h3 id="candidato-nome"></h3>
+        <p id="candidato-descricao"></p>
+        <button id="votar-button">Votar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
